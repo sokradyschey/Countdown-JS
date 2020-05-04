@@ -3,3 +3,12 @@ body {
     padding: 0;
     background: #efefef;
 }
+
+.days-container,
+.hours-container,
+.minutes-container,
+.seconds-container {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #000;
+}
