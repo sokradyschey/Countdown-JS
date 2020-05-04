@@ -4,15 +4,18 @@ body {
     background: #efefef;
 }
 
+p {
+    font-size: 20px;
+}
+
 .days-container,
 .hours-container,
 .minutes-container,
 .seconds-container {
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin:10px;
     border: 1px solid #000;
 }
-
-/* .days-container {
-
-} */
